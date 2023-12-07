@@ -28,5 +28,10 @@ module.exports = {
         "react"
     ],
     "rules": {
-    }
+    },
+    settings: {
+      react: {
+        version: 'detect', // React version. 'detect' automatically picks up the version from your project.
+      },
+    },
 }
