@@ -21,3 +21,14 @@ Install
     found 0 vulnerabilities
     git add package-lock.json
 
+
+Lint
+----
+
+::
+
+    test-eslint-jsx ➤ make lint                                                                                                                            git:main
+    npm run lint
+
+    > test-eslint-jsx@1.0.0 lint
+    > eslint --fix App.js
