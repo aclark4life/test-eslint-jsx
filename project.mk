@@ -5,3 +5,6 @@ lint:
 
 install:
 	$(MAKE) npm-install
+
+clean:
+	$(MAKE) npm-clean
